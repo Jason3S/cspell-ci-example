@@ -1,0 +1,28 @@
+{
+  "name": "cspell-ci-example",
+  "version": "1.0.0",
+  "description": "Example on how to setup cspell in a CI environment like Travis-CI or Appveyor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cspell -c cspell.json -v \"*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason3S/cspell-ci-example.git"
+  },
+  "keywords": [
+    "cspell",
+    "travis-ci",
+    "appveyor"
+  ],
+  "author": "Jason Dent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jason3S/cspell-ci-example/issues"
+  },
+  "homepage": "https://github.com/Jason3S/cspell-ci-example#readme",
+  "devDependencies": {
+    "cspell": "^2.0.3",
+    "cspell-dict-de-de": "^1.1.7"
+  }
+}
